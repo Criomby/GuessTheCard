@@ -2,7 +2,7 @@
 A small game where you have to guess whether the next card will be higher or lower than the current card. 
 <br>
 <br>
-<p align='center'><img src="https://user-images.githubusercontent.com/86114549/132889800-e1ce5762-6fa6-43a1-acc4-d3c7256769cb.png" alt="GUI_showcase.png" width="300"></p>
+<p align='center'><img src="https://user-images.githubusercontent.com/86114549/132895903-7149eb0e-ff99-40a9-b982-6bb23ed36837.png" alt="GUI_showcase.png" width="300"></p>
 
 ## Download Info: <br>
 <h3> Latest ready-to-use version:</h3>
@@ -31,6 +31,13 @@ Wallet adress:<br>
 <br>
 <img width="116" alt="ether_wallet_qr_code" src="https://user-images.githubusercontent.com/86114549/122909208-3f24f680-d355-11eb-88b9-c49afb867a98.png">
 Supported currencies: USDT, USDC, DAI, ETH <br>
+<br>
+<br>
+Message me at: <br>
+<b>criomby@pm.me</b><br>
+<br>
+<br>
+Playing cards back copyright: <a href="https://www.vecteezy.com/free-vector/playing-card-back">Playing Card Back Vectors by Vecteezy</a><br>
 <br>
 <br>
 © 2021 Braum
