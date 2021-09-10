@@ -1,6 +1,10 @@
+# Copyright 2021 Criomby
+# criomby@pm.me
+
 import tkinter as tk
 from PIL import ImageTk, Image
 import random
+import os
 
 # increase right counter
 def count_right():
@@ -14,10 +18,23 @@ def count_wrong():
     wrong_num.set(wrong_num.get() + 1)
     print("Count 'Wrong guesses' increased")
 
+# function to get the .ico file found in the pyinstaller --onefile exe,
+# which sets the path not as 'env' anymore, but as sys._MEIPASS
+# Copyright:
+# https://stackoverflow.com/questions/7674790/bundling-data-files-with-pyinstaller-onefile/13790741#13790741
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
 # GUI
 window = tk.Tk()
 window.title('GuessTheCard')
-window.iconbitmap('icon_cgg.ico')
+window.iconbitmap(resource_path('icon_cgg.ico'))
 window.geometry('300x440')
 window.resizable(False, False)
 # DEFINITIONS
@@ -58,19 +75,18 @@ label_space2 = tk.Label(text='', width=50, height=1, master=frame_buttons)
 
 # card images
 # card back image for card deck
-card_back = 'card_back.jpg'
+card_back = resource_path('card_back.jpg')
 img_back_open = Image.open(card_back)
 img_back = ImageTk.PhotoImage(img_back_open)
 label_image_back = tk.Label(image = img_back, master=frame_cards)
 
-# define cards / images
+# program opens the same card when opening
 global current_img
-global previous_img
-# open random card at start
 current_img = str(random.randint(1, 52)) + '.jpg'
+global previous_img
 previous_img = ''
 
-img_open = Image.open(current_img)
+img_open = Image.open(resource_path(current_img))
 img_start = ImageTk.PhotoImage(img_open)
 label_image = tk.Label(image = img_start, master=frame_cards)
 
@@ -83,20 +99,17 @@ def get_new_card():
     previous_img = current_img
     # gen new card
     current_img = str(random.randint(1, 52)) + '.jpg'
-    new_img_open = Image.open(current_img)
-    #new_img_open = img_open.resize((94, 125), Image.ANTIALIAS)
+    new_img_open = Image.open(resource_path(current_img))
     new_card = ImageTk.PhotoImage(new_img_open)
     label_image.configure(image=new_card)
     label_image.image = new_card
-    #label_image = tk.Label(image = new_card)
     print('Card updated')
 
-# when button 'higher' is pressed
 def press_higher():
     global current_img
     global previous_img
     # check if new card higher or lower than previous card
-    #print functions created for monitoring / logging of results
+    # print functions created for monitoring / logging of results
     print('HIGHER BUTTON')
     print('-----------------------------------------')
     print('current_img:', current_img, ', previous_img:', previous_img)
@@ -121,12 +134,11 @@ def press_higher():
     print('-----------------------------------------')
     print('END BUTTON PRESS EVENT')
 
-# when button 'lower' is pressed
 def press_lower():
     global current_img
     global previous_img
     # check if new card higher or lower than previous card
-    #print functions added for monitoring / logging of results
+    # print functions added for monitoring / logging of results
     print('LOWER BUTTON')
     print('-----------------------------------------')
     print('current_img:', current_img, ', previous_img:', previous_img)
@@ -157,7 +169,7 @@ button_higher = tk.Button(text='Higher', width=15, height=2,
 button_lower = tk.Button(text='Lower', width=15, height=2,
                          command = press_lower, bg = 'bisque2', relief = 'flat', master=frame_buttons)
 
-# PACKS
+# PACKS:
 label_top.pack()
 label_image.pack(side=tk.LEFT)
 label_image_back.pack(side=tk.RIGHT)
@@ -171,6 +183,3 @@ label_wrong.pack()
 label_wrong_num.pack()
 
 window.mainloop()
-
-# Copyright 2021 Criomby
-# criomby@pm.me
