@@ -7,7 +7,7 @@ A small game where you have to guess whether the next card will be <b>higher or 
 
 ## Download Info: <br>
 <h3> Latest ready-to-use version:</h3>
-<h3><a href=''>Download GuessTheCard.exe</a><br></h3>
+<h3><a href='https://github.com/Criomby/GuessTheCard/releases/download/v1.0/GuessTheCard_v1.0.exe'>Download GuessTheCard.exe</a><br></h3>
 <br>
 Download the .exe and execute it as an administrator.<br>
 <br>
