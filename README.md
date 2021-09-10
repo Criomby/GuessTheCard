@@ -1,8 +1,9 @@
-# GuessTheCard
-A small game where you have to guess whether the next card will be higher or lower than the current card. 
+# Guess The Card
+A small game where you have to guess whether the next card will be <b>higher or lower</b> than the current card. 
 <br>
 <br>
-<p align='center'><img src="https://user-images.githubusercontent.com/86114549/132895903-7149eb0e-ff99-40a9-b982-6bb23ed36837.png" alt="GUI_showcase.png" width="300"></p>
+<p align='center'><img src="https://user-images.githubusercontent.com/86114549/132898725-f0c76f73-5a5b-45b3-8360-600bebc2eece.png" alt="GUI_showcase.png" width="300"></p>
+<br>
 
 ## Download Info: <br>
 <h3> Latest ready-to-use version:</h3>
