@@ -23,10 +23,11 @@ Your antivirus might flag the program when trying to open it for the first time.
 <a href='https://ethereum.org/en/stablecoins/'>
 <img src="https://user-images.githubusercontent.com/86114549/122908250-35e75a00-d354-11eb-8be1-243fcecc93c6.png" alt="dai-large" height="50"></a>
 <a href='https://basicattentiontoken.org/'>
-<img src="https://user-images.githubusercontent.com/86114549/132891851-1f27aa6e-cd51-4879-9f80-17878c024dbe.jpg" alt="bat_token" height="50"></a>
+<img src="https://user-images.githubusercontent.com/86114549/132904922-1921973e-13f0-40e5-a912-2180fe2b1485.png" alt="bat_token" height="50"></a>
 <a href='https://ethereum.org/en/stablecoins/'>
 <img src="https://user-images.githubusercontent.com/86114549/122967139-7235ad00-d38a-11eb-86e9-b6e634a5fc75.png" alt="ETH-logo-round" height="50"></a>
 </p>
+
 Wallet adress:<br> 
 0xfC56bfc44E5671fD689331490D8e6Fa5B121474F<br>
 <br>
