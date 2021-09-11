@@ -6,13 +6,15 @@ A small game where you have to guess whether the next card will be <b>higher or 
 <br>
 
 ## Download Info: <br>
-<h3> Latest ready-to-use version:</h3>
+<h3> Latest ready-to-play version:</h3>
 <h3><a href='https://github.com/Criomby/GuessTheCard/releases/download/v1.0/GuessTheCard_v1.0.exe'>Download GuessTheCard.exe</a><br></h3>
 <br>
 Download the .exe and execute it as an administrator.<br>
 <br>
 Your antivirus might flag the program when trying to open it for the first time.
 <h3>Be reassured: It's open source and safe for you and your data!</h3><br>
+<br>
+<h3>Have fun!</h3><br>
 
 <h2>Support the project:</h2><br>
 <p float='left'>
