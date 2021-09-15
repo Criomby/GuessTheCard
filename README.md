@@ -44,4 +44,4 @@ Message me at: <br>
 Playing cards back copyright: <a href="https://www.vecteezy.com/free-vector/playing-card-back">Playing Card Back Vectors by Vecteezy</a><br>
 <br>
 <br>
-© 2021 Braum
+© 2021 Criomby
