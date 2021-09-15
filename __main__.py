@@ -10,8 +10,7 @@ class App(tk.Tk):
 
     def __init__(self):
         super(App, self).__init__()
-        # global variables
-
+        
         # GUI
         self.title('GuessTheCard')
         self.iconbitmap(self.resource_path('icon_cgg.ico'))
@@ -65,12 +64,9 @@ class App(tk.Tk):
         self.previous_img = ''
 
         self.img_open = Image.open(self.resource_path(self.current_img))
-        # img_open = img_open.resize((94, 125), Image.ANTIALIAS)
-
         self.img_start = ImageTk.PhotoImage(self.img_open)
         self.label_image = tk.Label(image=self.img_start, master=frame_cards)
-        # label_image.image = img_start
-
+        
         # define buttons
         button_higher = tk.Button(text='Higher', width=15, height=2,
                                   command=self.press_higher, bg='powder blue', relief='flat', master=frame_buttons)
@@ -102,7 +98,6 @@ class App(tk.Tk):
 
     # function to get files found in the pyinstaller --onefile exe,
     # which sets the path not as 'env' anymore, but as sys._MEIPASS
-    # Copyright:
     # https://stackoverflow.com/questions/7674790/bundling-data-files-with-pyinstaller-onefile/13790741#13790741
     def resource_path(self, relative_path):
         """ Get absolute path to resource, works for dev and for PyInstaller """
