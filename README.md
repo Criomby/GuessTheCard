@@ -16,6 +16,11 @@ Your antivirus might flag the program when trying to open it for the first time.
 <br>
 <h3>Have fun!</h3><br>
 
+Verify your download:<br>
+(SHA256sum) ca3ffb51a2057b3d56c31014173272d2dd93ec0ca6380f2bf6924bc66f5859d0<br>
+<br>
+<br>
+
 <h2>Support the project:</h2><br>
 <p float='left'>
 <a href='https://ethereum.org/en/stablecoins/'>
