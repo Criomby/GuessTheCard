@@ -4,7 +4,7 @@
 import tkinter as tk
 from PIL import ImageTk, Image
 import random
-import os
+import os, sys
 
 class App(tk.Tk):
 
