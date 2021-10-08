@@ -20,6 +20,10 @@ Verify your download:<br>
 (SHA256sum) ca3ffb51a2057b3d56c31014173272d2dd93ec0ca6380f2bf6924bc66f5859d0<br>
 <br>
 <br>
+If you want to compile the program yourself or make changes to the program code, you will need a set of digital cards in the root folder.<br>
+(.jpg, numbered from 1 to 52, excluding one card back sample linked at bottom).<br>
+<br>
+<br>
 
 <h2>Support the project:</h2><br>
 <p float='left'>
